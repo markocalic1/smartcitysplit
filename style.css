@@ -1,0 +1,70 @@
+#mainContainer{
+    background-image: url("img/background2-min.jpeg");
+    background-size: cover;
+    background-position: center;
+   height: -webkit-fill-available;
+}
+
+.navbar a {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    
+}
+.navbar-brand h1{
+    font-size: 3.5rem;
+}
+.jumbotron{
+    background-color: rgba(0, 0, 0, 0);
+    padding-bottom: 0;
+
+}
+.img-thumbnail{
+    border: 1px solid #dee2e626;
+    border-radius: 1.15rem;
+}
+
+.row ul{
+    padding-inline-start: 0px;
+}
+.widget{
+    background-color:  #f7f3f3d6;
+    display: inline-grid;
+    border-radius: 1.15em;
+    
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+  }
+  
+  #mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #18BC9C;
+  }
+  
+  #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: #fff;
+  }
+  
+  #mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: #18BC9C;
+  }
+
+
+  /*sticky header position*/
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+body {
+  min-height: 1200px;
+}
+nav {
+  background: #eaebec;
+  min-height: 85px;
+}
+section {
+    padding: 100px 0;
+  }
